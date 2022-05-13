@@ -5,8 +5,8 @@ public class Emprestimo {
 	double valor;
 	double juros;
 	int qtdparcelas;
-	double total ;
-	
+	double total;
+
 	public double faixaJuros(double valor) {
 		if (valor < 1000) {
 			juros = 0.02;
@@ -24,12 +24,11 @@ public class Emprestimo {
 		return juros;
 
 	}
-	
-	
+
 	public double calculo(double valor, int qtdParcelas) {
 		total = (valor * juros) + valor;
-		total /= qtdParcelas ;
+		total /= qtdParcelas;
 		System.out.println("O valor de " + valor + " parcelado em " + qtdParcelas + " x  =  " + total);
 		return total;
-	}	
+	}
 }
