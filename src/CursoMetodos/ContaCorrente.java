@@ -1,7 +1,7 @@
 package CursoMetodos;
 
 public class ContaCorrente {
-	/* ATIVIDADE EXTRE CURSO
+	/* ATIVIDADE EXTRA CURSO
 	 * 2. Cria uma classe para representar uma conta corrente que possui um número,
 	 * um saldo, um status que informa se ela é especial ou não, um limite.
 	 * Desenvolva métodos para realizar saque (verificando se o cliente pode
